@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/globals.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Trello Clone</title>
+</head>
+<body>
+    <h1 class="title">Kanban Board</h1>
+    <main class="main-container">
+        <section>
+            <section class="backlog card-container" id="backlog-card-container">
+        
+                <section class="backlog-title card-title">
+                    Backlog
+                </section>
+                <section class="items-container items-container-backlog" id="items-container-backlog">
+                    <div class="holder-space">
+    
+                    </div>
+                    <div class="holder-space new-item">
+    
+                    </div>
+                </section>
+                
+                <section class="input-box not-visible" id="input-box-backlog">
+                    <input class="input-item" id="input-item-backlog" type="text" placeholder="Add item here">
+                    <button class="add-button" id="add-button-backlog">Add</button>
+                </section>
+    
+                <section class="add-item" id="add-item-backlog">
+                    + Add item
+                </section>
+            </section>
+        </section>
+        
+
+        <section>
+            <section class="in-progress card-container">
+                <section class="in-progress-title card-title">
+                    In Progress
+                </section>
+    
+                <section class="items-container items-container-in-progress" id="items-container-in-progress">
+                    <div class="holder-space">
+    
+                    </div>
+    
+                    <div class="holder-space new-item">
+    
+                    </div>
+                </section>
+    
+                <section class="input-box not-visible" id="input-box-in-progress">
+                    <input class="input-item" id="input-item-in-progress" type="text" placeholder="Add item here">
+                    <button class="add-button" id="add-button-in-progress">Add</button>
+                </section>
+    
+                <section class="add-item" id="add-item-in-progress">
+                    + Add item
+                </section>
+            </section>
+        </section>
+        
+        <section>
+            <section class="compelte card-container">
+                <section class="complete-title card-title">
+                    Complete
+                </section>
+    
+                <section class="items-container items-container-complete" id="items-container-complete">
+                    <div class="holder-space">
+    
+                    </div>
+    
+                    <div class="holder-space new-item" >
+    
+                    </div>
+                </section>
+    
+                <section class="input-box not-visible" id="input-box-complete">
+                    <input class="input-item" id="input-item-complete" type="text" placeholder="Add item here">
+                    <button class="add-button" id="add-button-complete">Add</button>
+                </section>
+    
+                <section class="add-item" id="add-item-complete">
+                    + Add item
+                </section>
+            </section>
+        </section>
+        
+        <section>
+            <section class="on-hold card-container">
+                <section class="on-hold-title card-title">
+                    On Hold
+                </section>
+    
+                <section class="items-container items-container-on-hold" id="items-container-on-hold">
+                    <div class="holder-space">
+    
+                    </div>
+                    <div class="holder-space new-item" >
+    
+                    </div>
+                </section>
+    
+                <section class="input-box not-visible" id="input-box-on-hold">
+                    <input class="input-item" id="input-item-on-hold" type="text" placeholder="Add item here">
+                    <button class="add-button" id="add-button-on-hold">Add</button>
+                </section>
+    
+                <section class="add-item" id="add-item-on-hold">
+                    + Add item
+                </section>
+            </section>
+        </section>
+        
+    </main>
+    
+</body>
+<script src="./utils/index.js"></script>
+</html>
